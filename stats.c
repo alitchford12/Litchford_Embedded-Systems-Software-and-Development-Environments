@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Function definitions for statistical analysis of an array
  *
- * <Add Extended Description Here>
+ * Function definitions for functions that can analyze an array of 
+ * unsigned char data items and report analytics on the maximum, minimum,
+ * mean, and median of the data set.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Ariana Litchford
+ * @date 11/17/26
  *
  */
 
@@ -41,3 +43,35 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+unsigned char find_median(unsigned char *data, unsigned int size)
+{
+    return 0;
+}
+
+unsigned char find_mean(unsigned char *data, unsigned int size)
+{
+    return 0;
+}
+
+unsigned char find_maximum(unsigned char *data, unsigned int size)
+{
+    return 0;
+}
+
+unsigned char find_minimum(unsigned char *data, unsigned int size)
+{
+    return 0;
+}
+
+void sort_array(unsigned char *data, unsigned int size)
+{
+}
+
+void print_statistics(unsigned char *data, unsigned int size)
+{
+}
+
+void print_array(unsigned char *data, unsigned int size)
+{
+}
